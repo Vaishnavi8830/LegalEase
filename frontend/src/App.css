@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6fb;
+}
+
+.app {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.header p {
+  color: #555;
+}
+
+/* Section Titles */
+.section-title {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: #34495e;
+}
+
+/* Category buttons */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-btn {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.category-btn:hover {
+  background: #4338ca;
+  transform: scale(1.05);
+}
+
+/* Laws list */
+.laws {
+  margin-top: 15px;
+}
+
+.law-item {
+  padding: 10px;
+  background: white;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.law-item:hover {
+  background: #eef2ff;
+}
+
+/* AI Explanation box */
+.explanation {
+  margin-top: 25px;
+  background: #fff7ed;
+  border-left: 6px solid #fb923c;
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+.explanation h3 {
+  margin-top: 0;
+  color: #c2410c;
+}
+
+/* Loading */
+.loading {
+  margin-top: 15px;
+  color: #555;
+  font-style: italic;
+}
+
+.categories button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.categories button.selected {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.laws div {
+  margin: 5px 0;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.laws div.selected-law {
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+}
+
+.loading {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.explanation {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}

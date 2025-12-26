@@ -2,9 +2,7 @@
 backend/node_modules/
 backend/.env
 
-# Frontend (extra safety)
-frontend/node_modules/
-frontend/build/
+
 
 # Logs
 npm-debug.log*
